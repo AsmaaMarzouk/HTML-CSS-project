@@ -1,0 +1,164 @@
+* {box-sizing: border-box;}
+
+body {
+  margin-top: -500px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+ 
+  background-color: white;
+}
+.logo{
+  float: left;
+  margin: 8px;
+  width: 10%;
+}
+.logo1{
+  float: left;
+  margin: 10px;
+  
+  width: 50%;
+}
+.logo2{
+  float: left;
+  margin: 20px;
+ margin-top: 40px;
+  width: 70%;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  
+  color: gray;
+}
+
+.topnav a.active {
+  background-color: green;
+  color: gray;
+}
+
+.topnav .search-container {
+  text-align: center;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  background-color: rgb(224, 220, 220);
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+ .search{
+   text-align: center;
+ }
+ 
+ .line{
+   width: 100px;
+   display: inline-block;
+ }
+/*.image-container {
+
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    margin: 0 4px 8px;
+    line-height: 0;
+
+}
+.image-container h3 {
+
+    margin: 0;
+    padding: 0;
+    display: table;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+}
+.image-container h3::before {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px #000 hidden;
+
+content: '\A';
+
+background: linear-gradient(to top,linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(16, 22, 35, 0.26)));
+
+
+}
+h3 {
+
+    color: #808080;
+
+}
+h3, h4, h5, h6 {
+
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+
+}
+.image-container h3 a, .image-container h3 span {
+
+    font-family: "FuturaPTHeavy", Helvetica, sans-serif;
+    position: relative;
+    border-radius: 4px;
+    line-height: 20px;
+    color: #ffffff;
+    letter-spacing: 3.4px;
+    display: table-cell;
+    vertical-align: middle;
+
+
+}*/
